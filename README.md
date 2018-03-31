@@ -26,7 +26,7 @@ When I replaced the id number of a salesperson in the URL with ' OR SLEEP(10)=0-
 
 Vulnerability #2: **Session Hijacking/Fixation**
 
-I used the given PHP script to to get and set the session ID. First I tried in Chrome browser that I was logged in to the blue page. I copied the given session ID, then I switched to Safari that I was not logged in and changed the PHPSESSIONID given by Safari to the copied PHPSESSIONID. Then I was able to login without username and password.  
+I used the given PHP script to to get and set the session ID. First I tried in Chrome browser that I was logged in to the blue page. I copied the given session ID, then I switched to Safari that I was not logged in and changed the PHPSESSIONID given by Safari to the copied PHPSESSIONID. Then I could login without username and password.  
 
 <img src="https://media.giphy.com/media/SiJXBnSzl186InK8bv/giphy.gif" width="800">
 
